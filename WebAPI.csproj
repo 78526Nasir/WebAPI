@@ -188,6 +188,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeDBModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\EmployeeDashborad.aspx.cs">
+      <DependentUpon>EmployeeDashborad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EmployeeDashborad.aspx.designer.cs">
+      <DependentUpon>EmployeeDashborad.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +216,7 @@
       <DependentUpon>EmployeeDBModel.edmx</DependentUpon>
       <LastGenOutput>EmployeeDBModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Pages\EmployeeDashborad.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
