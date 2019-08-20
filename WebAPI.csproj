@@ -216,6 +216,7 @@
       <DependentUpon>EmployeeDBModel.edmx</DependentUpon>
       <LastGenOutput>EmployeeDBModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Pages\EmployeeDashboard2.html" />
     <Content Include="Pages\EmployeeDashborad.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
